@@ -1,0 +1,90 @@
+.wrapper {
+	width: 60%;
+	margin:auto;
+}
+
+.game {
+	position: relative;
+	background-color: #ccc;
+	background: url("beer_party.png");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+
+
+}
+
+a{	
+	color:#5089e5;
+	font-weight: bold;
+	padding: 12px 5px;
+	border:2px solid #5089e5;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color:rgba(255,0,0,.6);
+	border:2px solid rgba(255,0,0,.6);
+}
+
+
+.btn:hover{
+	color: green;
+	border:2px solid green;
+}
+
+.bottom_panel{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.btn {
+	margin-right: 10px;
+}
+
+.display_inline{
+	display: inline-block;
+}
+
+
+.stat {
+	margin-bottom:20px;
+}
+
+
+.buttons{
+	float: right;
+	padding-right: 10px;
+}
+
+.scale_tmp{
+	
+	width: 10rem;
+	height: 10px;
+	border: 1px solid white;
+}
+
+.scale_current{
+	
+	height: 10px;
+	width: 0;
+	background-color: red;
+}
+
+
+h3{
+	color: white;
+	margin:0;
+	margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.wrapper{
+		width:100%;
+		margin:0;
+	}
+}
